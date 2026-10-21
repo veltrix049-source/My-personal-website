@@ -8,6 +8,10 @@ the computer opens "about me", the bookshelf shows my projects, and the mail is 
 this is my first ever website. i learned most of it from youtube and trial and error, so some pixels are slightly crooked. i built it with just html and css, no javascript.
 to run it, download the files and open index.html in your browser.
 
+AI use
+
+I used AI for help  wording some of the site text to get me a idea of what I should put there. Then i used my own creativity. 
+
 made late at night, be nice to it.
 
 btw, I drew the images with Piskel.
