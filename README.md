@@ -10,3 +10,4 @@ to run it, download the files and open index.html in your browser.
 
 made late at night, be nice to it.
 
+btw, I drew the images with Piskel.
