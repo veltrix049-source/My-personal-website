@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>personal website</title>
+    <link rel="stylesheet" href="only.css">
+</head>
+<body>
+    <main class="main">
+        <div class="heading">
+            <div class="my-room"><h1>My <b>room</b></h1></div>
+        </div>
+
+            <div  class="room">
+                <img src="final-room.png"alt="room">
+
+                <input type="radio" name="page" id="none" class="toggle" checked>
+                <input type="radio" name="page" id="about" class="toggle">
+                <input type="radio" name="page" id="projects" class="toggle">
+                <input type="radio" name="page" id="contact" class="toggle">
+                <input type="radio" name="page" id="real-lamp" class="toggle">
+                <input type="radio" name="page" id="bed" class="toggle">
+                <input type="radio" name="page" id="carpet" class="toggle">
+                    
+                <label for="projects" class="hotspot shelf" aria-label="bookshelf"></label>
+                <label for="about" class="hotspot computer" aria-label="computer"></label>
+                <label for="contact" class="hotspot lamp" aria-label="lamp"></label>
+                <label for="real-lamp" class="hotspot real-lamp" aria-label="real-lamp"></label>
+                <label for="bed" class="hotspot bed" aria-label="bed"></label>
+                <label for="carpet" class="hotspot carpet" aria-label="carpet"></label>
+                
+                <div class="popup" id="real-lamp-page">
+                    <div class="icon"> The lamp is broken</div>
+                    <label for="none" class="close">x</label>
+                </div>
+
+                <div class="popup" id="bed-page">
+                    <div class="icon">sorry, you can't sleep in here. It's mine</div>
+                    <label for="none" class="close">x</label>
+                </div>
+
+                <div class="popup" id="carpet-page">
+                    <div class="icon">looking something? nothing under it</div>
+                    <label for="none" class="close">x</label>
+                </div>
+
+
+                <div class="popup" id="about-page">
+                    <div class="icon">Looks like you like computers</div>
+                    <h2>About me</h2>
+                    <p>heyy, My name is "...". I am just someone who is intrested in almost anything. I really like learning new stuffs. most of the time, I stay up very late doing coding or something like that(nightowl). I am also into art. I do paintings, pencil drawings etc..now i have tried pixel art, I like that too. sometimes I play basketball as well. Anyways, I hope you like my project. Welcome!
+                    </p>
+                    <label for="none" class="close">x</label>
+                </div>
+
+                <div class="popup" id="project-page">
+                    <div class="icon">emm..the self is coved in dust.
+                    </div>
+                    <h2>my projects</h2>
+                    <p> This is my first ship. I'm also planing to make more projects (currently working on a mini keyboard)
+                    </p>
+                    <label for="none" class="close">x</label>
+                </div>
+
+                <div class="popup" id="contact-page">
+                    <div class="icon"> YAY, you finally opened it!</div>
+                    <h2>contact</h2>
+                    <p> 
+                        Just a way to reach me..if you ever need to.
+                        dreamy6391@gmail.com
+                    </p>
+                    <label for="none" class="close">x</label>
+                </div>
+
+            </div>
+
+        <!--last buttons-->
+            <nav class="all-button">
+                <label for="projects" class="button-a">projects</label>
+                <label for="about" class="button-a">about</label>
+                <label for="contact" class="button-a">contact</label>
+            </nav>
+            <p class="last-para">Now you have came to my room, look around to find the secrets (move your cursor around the room to find the secrets) or just click the buttons but u will miss something.</p>
+    </main>
+</body>
+</html>
